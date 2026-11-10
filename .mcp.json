@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "adside": {
+      "type": "http",
+      "url": "https://api.adside.ai/mcp"
+    }
+  }
+}

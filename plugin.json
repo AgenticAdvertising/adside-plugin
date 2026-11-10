@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "adside",
+  "version": "0.1.0",
+  "description": "Run your Adside workspace from Codex: the adside command line for reports, files and media generation, and the Adside MCP for changes to your ad platforms.",
+  "author": {
+    "name": "Adside",
+    "url": "https://adside.ai"
+  },
+  "homepage": "https://docs.adside.ai/cli/agent-plugin",
+  "keywords": [
+    "adside",
+    "advertising",
+    "meta-ads",
+    "google-ads",
+    "linkedin-ads",
+    "tiktok-ads",
+    "marketing"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Adside",
+        "shortDescription": "Ad reports, creatives and campaigns in Adside",
+        "longDescription": "Read spend and performance across Meta, Google Ads, LinkedIn, TikTok, Reddit, Snapchat and X, work with your creatives and assets, and generate media with the adside command line. Changes to ad platforms go through the Adside MCP, which asks for your confirmation first.",
+        "developerName": "Adside",
+        "category": "Business & Operations",
+        "capabilities": [],
+        "websiteURL": "https://adside.ai",
+        "privacyPolicyURL": "https://adside.ai/privacy",
+        "termsOfServiceURL": "https://adside.ai/terms",
+        "defaultPrompt": "Which of my campaigns spent the most last week, and how did they perform?",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "adside",
+  "displayName": "Adside",
+  "version": "0.1.0",
+  "description": "Run your Adside workspace from Claude Code: the adside command line for reports, files and media generation, and the Adside MCP for changes to your ad platforms.",
+  "author": {
+    "name": "Adside",
+    "url": "https://adside.ai"
+  },
+  "homepage": "https://docs.adside.ai/cli/agent-plugin",
+  "privacyPolicyUrl": "https://adside.ai/privacy",
+  "keywords": [
+    "adside",
+    "advertising",
+    "meta-ads",
+    "google-ads",
+    "linkedin-ads",
+    "tiktok-ads",
+    "marketing"
+  ]
+}

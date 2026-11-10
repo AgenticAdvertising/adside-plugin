@@ -1,0 +1,16 @@
+{
+  "name": "adside",
+  "owner": {
+    "name": "Adside",
+    "url": "https://adside.ai"
+  },
+  "description": "Adside's plugin for Claude Code.",
+  "plugins": [
+    {
+      "name": "adside",
+      "source": "./",
+      "description": "Run your Adside workspace from Claude Code: the adside command line for reports, files and media generation, and the Adside MCP for changes to your ad platforms.",
+      "category": "productivity"
+    }
+  ]
+}
