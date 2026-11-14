@@ -9,7 +9,9 @@
     "url": "https://adside.ai"
   },
   "homepage": "https://docs.adside.ai/mcp/connect",
+  "repository": "https://github.com/AgenticAdvertising/adside-plugin",
   "privacyPolicyUrl": "https://www.adside.ai/privacy",
+  "termsOfServiceUrl": "https://www.adside.ai/terms",
   "license": "MIT",
   "keywords": [
     "adside",
