@@ -7,6 +7,12 @@ Teaches an AI agent to run your Adside workspace from your computer, with the `a
 - **`adside-assets`**: uploading, downloading and organizing the asset library.
 - **The Adside MCP server** (`https://api.adside.ai/mcp`), which signs in with your browser the first time it is used.
 
+This repository also holds **Adside Creative** (`adside-creative/`), a plugin for making ad creatives from Claude on claude.ai, in Cowork and in Claude Code, through the Adside MCP alone. See [its README](adside-creative/README.md). In Claude Code:
+
+```bash
+claude plugin install adside-creative --marketplace AgenticAdvertising/adside-plugin
+```
+
 ## Install
 
 Claude Code:
@@ -35,7 +41,7 @@ The command line and the API make a change on the first call, with no confirmati
 
 ## Working on it
 
-`AgenticAdvertising/adside-plugin` is a copy of `plugins/adside` in Adside's main repository: a change made only there is lost at the next copy.
+`AgenticAdvertising/adside-plugin` is a copy of `plugins/adside` (the repository root) and `plugins/adside-creative` (`adside-creative/`) in Adside's main repository: a change made only here is lost at the next copy.
 
 The skills under `skills/` are generated: edit the templates in `packages/adside-cli/src/plugin-skills/`, then run `pnpm docs:generate`. Command lists come from the CLI's catalog, and the generator refuses a template that names a command the published CLI does not have.
 

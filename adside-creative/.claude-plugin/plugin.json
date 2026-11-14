@@ -1,0 +1,23 @@
+{
+  "name": "adside-creative",
+  "displayName": "Adside Creative",
+  "version": "0.2.0",
+  "description": "Make on-brand ad creatives with Adside from a conversation: a brief built from your best ads and your competitors', tested creative styles, recurring characters, static, animated and video ads in every placement size, edits, review and ad copy.",
+  "author": {
+    "name": "Adside",
+    "email": "support@adside.ai",
+    "url": "https://adside.ai"
+  },
+  "homepage": "https://docs.adside.ai/mcp/connect",
+  "privacyPolicyUrl": "https://www.adside.ai/privacy",
+  "license": "MIT",
+  "keywords": [
+    "adside",
+    "ad-creatives",
+    "creative-generation",
+    "meta-ads",
+    "tiktok-ads",
+    "linkedin-ads",
+    "marketing"
+  ]
+}

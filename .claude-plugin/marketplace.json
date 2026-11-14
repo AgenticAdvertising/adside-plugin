@@ -4,12 +4,18 @@
     "name": "Adside",
     "url": "https://adside.ai"
   },
-  "description": "Adside's plugin for Claude Code.",
+  "description": "Adside's plugins for Claude.",
   "plugins": [
     {
       "name": "adside",
       "source": "./",
       "description": "Run your Adside workspace from Claude Code: the adside command line for reports, files and media generation, and the Adside MCP for changes to your ad platforms.",
+      "category": "productivity"
+    },
+    {
+      "name": "adside-creative",
+      "source": "./adside-creative",
+      "description": "Make on-brand ad creatives with Adside from a conversation: references from your best ads and your competitors', tested creative styles, recurring characters, every placement size, review and ad copy.",
       "category": "productivity"
     }
   ]
